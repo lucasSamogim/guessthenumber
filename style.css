@@ -148,4 +148,8 @@ footer a:hover {
     #guess-number {
         width: 90%;
     }
+
+    footer a {
+        text-decoration: underline;
+    }
 }
