@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Guess The Number Game</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <h1 class="title">Guess The Number!</h1>
+
+    <div class="game-container">
+        <div class="start-area">
+            <label for="guessNumber" class="label">Enter your number here:</label>
+            <input type="number" name="guess-number" id="guess-number" min="0" max="10" placeholder="Choose a number between 0 and 10" />
+            <div class="button-area">
+                <button class="btn-guess">GUESS!</button>
+            </div>
+        </div>
+        <div class="win-area">
+            <h1 class="win-msg">CONGRATULATIONS!</h1>
+            <h2 class="win-submsg">You entered the correct number!</h2>
+            <button class="btn-restart">RESTART</button>
+        </div>
+    </div>
+
+    <footer>
+        Develop by <a href="https://www.instagram.com/devjourney.br/">@devJourney.br</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
