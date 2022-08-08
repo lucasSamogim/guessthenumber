@@ -89,6 +89,14 @@ body {
     text-align: center;
 }
 
+.wrong-msg,
+.error-msg {
+    display: none;
+    color: #FFF;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
 /*GUESS BUTTON From uiverse.io */
 /* From uiverse.io by @EmmaxPlay */
 .button-area {

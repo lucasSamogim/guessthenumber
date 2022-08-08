@@ -16,8 +16,10 @@
 
     <div class="game-container">
         <div class="start-area">
-            <label for="guessNumber" class="label">Enter your number here:</label>
+            <label for="guess-number" class="label">Enter your number here:</label>
             <input type="number" name="guess-number" id="guess-number" min="0" max="10" placeholder="Choose a number between 0 and 10" />
+            <div class="wrong-msg">Wrong number! Try Again...</div>
+            <div class="error-msg">The number must be between 0 and 10...</div>
             <div class="button-area">
                 <button class="btn-guess">GUESS!</button>
             </div>
