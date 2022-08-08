@@ -31,6 +31,7 @@ btnGuess.addEventListener('click', () => {
         } else {
             errorMsg.style.display = "none";
             wrongMsg.style.display = "block";
+            guessNumber.value = "";
         }
     }
 })
